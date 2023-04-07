@@ -5,7 +5,6 @@ import MasterLayout from "../layouts/MasterLayout";
 const Home: FC<{}> = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen pb-10">
-      
       <Image
         alt=""
         src={"https://mir-s3-cdn-cf.behance.net/user/276/92390f168029759.5b356ed946ab5.jpg"}
