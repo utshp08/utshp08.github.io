@@ -28,6 +28,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.4.0 
           with:
-            branch: gh-pages
+            branch: gh-page
             folder: out
         # configure an external GitHub Pages deploy workflow here
