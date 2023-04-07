@@ -3,7 +3,14 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["mir-s3-cdn-cf.behance.net/com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "mir-s3-cdn-cf.behance.net",
+        port: "",
+        pathname: "/user/**/**",
+      },
+    ],
   },
 };
 
