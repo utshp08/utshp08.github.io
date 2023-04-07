@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { FC } from "react";
-import MasterLayout from "../layouts/MasterLayout";
 
 const Home: FC<{}> = () => {
   return (

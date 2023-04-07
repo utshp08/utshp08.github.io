@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let assetPrefix = "utshp08.github.io";
+let assetPrefix = "/";
 let basePath = "";
 
 if (isGithubActions) {
@@ -15,6 +15,9 @@ const nextConfig = {
   swcMinify: true,
   assetPrefix: assetPrefix,
   basePath: basePath,
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
