@@ -1,0 +1,103 @@
+/* CARD LAYOUT*/
+.CardLayoutContainer {
+  display: flex;
+  justify-content: center;
+}
+/* 
+.fullBox {
+  position: fixed !important;
+  top: 0 !important;
+  border-radius: 0% !important;
+  margin: 0 !important;
+  overflow-y: auto;
+  z-index: 2;
+  animation-name: full-box;
+  animation-play-state: paused;
+  transition: all 0.3s ease-in-out;
+} */
+.actionBox {
+  border-radius: 6px;
+  box-shadow: 2px 2px 19px 2px rgb(0 0 0 / 18%);
+  background: #ffffff;
+  position: absolute;
+  margin: 1rem;
+  transform: translateY(-500px);
+  animation-name: cardEntrance;
+  /* animation-delay: 1s; */
+  animation-duration: 0.5s;
+  animation-iteration-count: loop;
+  animation-fill-mode: forwards;
+  transition: all 0.3s ease-in-out;
+  width: 250px;
+}
+.actionBoxContent {
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  border-radius: 4px;
+  border: 10px solid #ffffff;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  min-width: 100px;
+  background: #ff8222;
+}
+.actionBox::hover {
+  cursor: pointer;
+  background: #75b90a;
+}
+.floating {
+}
+.animatePause {
+  /* animation-play-state: paused; */
+}
+.displayInline {
+  display: inline-block;
+}
+.displayFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actionBox.sm {
+  /* width: 200px;
+  height: 200px; */
+}
+
+@keyframes cardEntrance {
+  from{
+    top: -50%;
+  }
+  to {
+    top: 0%;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes full-box {
+  0% {
+    transform: scale(0);
+    transform: translateY(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    transform: scale(1);
+    transform: translateY(50%);
+    transform: translateX(50%);
+  }
+  100% {
+    transform: scaleX(2);
+    transform: translateY(0%);
+    transform: translateX(0%);
+  }
+}
