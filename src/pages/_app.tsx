@@ -5,7 +5,7 @@ import SideBar from '../layouts/Sidebar';
 
 export default function App(props: AppProps) {
   return (
-    <div>
+    <div className=" bg-black text-white">
       <SideBar />
       <PageWithTransition {...props} />
     </div>

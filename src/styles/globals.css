@@ -27,6 +27,45 @@ a {
 .list {
   list-style: none;
 }
+
+.block {
+  position: relative;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #000, #272727);
+}
+
+.block:before,
+.block:after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: 0;
+  animation: steam 20s linear infinite;
+}
+
+.block:after {
+  filter: blur(50px);
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

@@ -16,10 +16,22 @@ module.exports = {
             opacity: 1,
             transform:"translateY(0px)"
           }
-        }
+        },
+        steam: {
+          "0%": {
+            "background-position": "0 0"
+          },
+          "50%":{
+            "background-position": "400% 0"
+          },
+          "100%" :{
+            "background-position": "0 0"
+          }
+        },
       },
       animation: {
-        slideUpEnter: "slideUpEnter .3s ease-in-out"
+        slideUpEnter: "slideUpEnter .3s ease-in-out",
+        steam: "steam .3s ease-in-out"
       }
     },
   },
