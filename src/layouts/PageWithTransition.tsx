@@ -20,7 +20,7 @@ const PageWithTransition = ({ Component, pageProps }: AppProps) => {
         }
     }, [router.events])
 
-    const Loading = () => <div className="container mx-auto">Loading...</div>;
+    const Loading = () => <div className="text-white flex flex-col justify-center items-center h-screen pb-10">Loading...</div>;
 
     const Screen = !transitioning ? Component : Loading;
 
