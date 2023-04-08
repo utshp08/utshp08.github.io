@@ -3,8 +3,8 @@ import styles from '../styles/Home.module.css';
 
 export default function HireMe() {
   return (
-    <MasterLayout title="Hire me">
+    <div className="text-white flex flex-col justify-center items-center h-screen pb-10">
       <p>Test 12333</p>
-    </MasterLayout>
+    </div>
   )
 }
