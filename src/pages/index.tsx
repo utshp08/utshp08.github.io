@@ -24,6 +24,7 @@ const Home: FC<{}> = () => {
       <div className="p-5 text-xl text-center max-w-[800px]">
         <p>I&lsquo;m a <strong>web</strong> enthusiast — a self-taught developer and experienced designer. I studied IT where my focus is on database management.</p>
         <p>One of my passion is to design and build modern websites. </p>
+        <p>I&lsquo;ve been in an IT industry for more than 6-years where I demonstrated both my web design and development skills.</p>
       </div>
     </div>
   )
