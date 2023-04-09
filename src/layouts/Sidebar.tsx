@@ -41,13 +41,13 @@ const SideBar: FC<SideBarProps> = ({ }) => {
                     " border-gray-900  bg-gray-900 p-2.5 shadow-lg z-20 flex shrink-0 grow-0 justify-around gap-6 min-h-[auto] min-w-[64px] flex-col rounded-lg border h-auto ": true
                 })}
             >
-                <button
+                {/* <button
                     className={cn({
                         "flex flex-row justify-center text-center aspect-square min-h-[50px] w-[80px] rounded-md p-2 dark:bg-sky-900 dark:text-sky-50": true,
                     })}
                 >
                     <svg width={50} dangerouslySetInnerHTML={{ __html: icons.menu }} />
-                </button>
+                </button> */}
                 {
                     pages.map((page, index) => {
                         return <NavLink key={index} page={page} />
