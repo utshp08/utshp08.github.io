@@ -98,7 +98,7 @@ export const icons = {
                 `
         },
         "gmail": {
-            "link":"mailto:remarthp@gmail.com;subject:'Message from portfolio'",
+            "link":"mailto:remarthp@gmail.com?subject:'Message from portfolio website'",
             "icon": `
                 <svg 
                 width="100" 
