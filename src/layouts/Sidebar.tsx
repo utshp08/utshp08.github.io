@@ -3,6 +3,7 @@ import Link from 'next/link';
 import layout from "../styles/Sideba.module.css";
 import { pages, icons } from '../commons/common';
 import cn from "classnames";
+import Router from "next/router";
 import { Button } from '../stories/components/Button';
 
 type SideBarProps = {
@@ -14,6 +15,8 @@ type LinkProps = {
 
 const NavLink = ({ page }: LinkProps) => {
     const [hover, setHover] = useState(false);
+
+
     return (
         <Link
             href={page.path}
@@ -31,14 +34,15 @@ const NavLink = ({ page }: LinkProps) => {
 }
 
 const SideBar: FC<SideBarProps> = ({ }) => {
+
     return (
         <div className={cn({
-            "flex items-center h-screen border-tbackdrop-blur-lg dark:border-slate-600/60 dark:bg-slate-800/50 fixed": true
+            "z-[20] xl:flex lg:flex md:flex sm:block xs:block items-center xl:h-screen w-[100%] xl:w-auto border-tbackdrop-blur-lg dark:border-slate-600/60 dark:bg-slate-800/50 fixed xl:fixed-left sm:fixed-top xs:fixed-top": true
         })}>
 
             <nav
                 className={cn({
-                    " border-gray-900  bg-gray-900 p-2.5 shadow-lg z-20 flex shrink-0 grow-0 justify-around gap-6 min-h-[auto] min-w-[64px] flex-col rounded-lg border h-auto ": true
+                    "  xl:w-auto xl:flex-col lg:flex-col md:flex-row sm:flex-row xs:flex-row border-gray-900  bg-gray-900 p-2.5 shadow-lg z-20 flex shrink-0 grow-0 justify-around gap-6 min-h-[auto] min-w-[64px] rounded-lg border h-auto md:w-[100%] sm:w-[100%] xs:w-[100%]": true
                 })}
             >
                 {/* <button

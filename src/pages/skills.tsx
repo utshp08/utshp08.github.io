@@ -6,10 +6,10 @@ import Heading from "../components/common/heading";
 
 export default function Skills() {
   return (
-    <div className="text-white flex flex-col justify-center items-center h-screen pb-10">
-      <Heading className={" text-4xl"}>WHAT I DO</Heading>
+    <div className="px-5 text-white flex flex-col xl:justify-center lg:justify-center md:justify-center sm:justify-start items-center h-screen ">
+      <Heading className={"text-center text-4xl"}>WHAT I DO</Heading>
       <p className="my-5 mb-[40px] ">Tech-stack I use for designing and building web applications.</p>
-      <div className="flex flex-row gap-4 justify-around">
+      <div className="px-5 flex flex-row gap-4 justify-around flex-wrap">
         {Object.keys(icons.skills).map((key: any) => {
           return (
             <div key={key} className="flex flex-col border-tbackdrop-blur-lg justify-center items-center p-3 min-h-[80px] min-w-[80px] aspect-square rounded-md shadow-lg bg-gray-900 shadow-black border-gray-900 border-solid">
@@ -18,7 +18,7 @@ export default function Skills() {
             </div>
           )
         })}
-      </div>  
+      </div>
     </div>
   )
 }

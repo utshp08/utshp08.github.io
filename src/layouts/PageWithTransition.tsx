@@ -28,8 +28,9 @@ const PageWithTransition = ({ Component, pageProps }: AppProps) => {
     return (
         <div className={cn({
             "animate-slideUpEnter": !transitioning,
+            "xl:pt-[0px] lg:pt-[0px] md:pt-[0px] sm:pt-[140px] xs:pt-[140px]": true
         })}>
-            <Screen {...pageProps} />
+            <Screen  {...pageProps} />
         </div>
     )
 }
