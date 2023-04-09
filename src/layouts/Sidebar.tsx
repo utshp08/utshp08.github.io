@@ -20,8 +20,8 @@ const NavLink = ({ page }: LinkProps) => {
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
             className={cn({
-                "flex aspect-square min-h-[50px] w-[80px] flex-col rounded-md items-center justify-center gap-1 p-2 dark:bg-sky-900 dark:text-sky-50": true,
-                "bg-indigo-50 text-indigo-600": hover
+                " transition-all flex aspect-square min-h-[50px] w-[80px] flex-col rounded-md items-center justify-center gap-1 p-2 dark:bg-sky-900 dark:text-sky-50": true,
+                "bg-white text-slate-900": hover
             })}
         >
             <svg width="50px" dangerouslySetInnerHTML={{ __html: page.icon }} />
