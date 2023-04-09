@@ -21,7 +21,7 @@ const Home: FC<{}> = () => {
           })} />
       </div>
       <Heading className="text-5xl  mt-5 ">Hello, I&lsquo;m Reymart!</Heading>
-      <div className="p-5 text-xl text-center max-w-[800px]">
+      <div className="z-10 p-5 text-xl text-center max-w-[800px]">
         <p>I&lsquo;m a <strong>web</strong> enthusiast — a self-taught developer and experienced designer. I studied IT where my focus is on database management.</p>
         <p>One of my passion is to design and build modern websites. </p>
         <p>I&lsquo;ve been in an IT industry for more than 6-years where I demonstrated both my web design and development skills.</p>
