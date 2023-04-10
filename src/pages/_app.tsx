@@ -21,7 +21,6 @@ export default function App(props: AppProps) {
     await console.log(container);
   }, []);
 
-
   return (
     <div className=" bg-black text-white"  >
       <Particles id="tsparticles" options={{
