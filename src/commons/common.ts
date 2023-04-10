@@ -3,7 +3,7 @@ export const icons = {
         <svg 
             fill="currentColor" 
             width="50px" 
-            height="50px" 
+            height="40px" 
             viewBox="0 0 32 32" 
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <path d="M26,16c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,14,26,14.896,26,16z" id="XMLID_314_"></path><path d="M26,8c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,6,26,6.896,26,8z" id="XMLID_315_"></path><path d="M26,24c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,22,26,22.896,26,24z" id="XMLID_316_"></path></g></svg>
@@ -202,7 +202,7 @@ export const pages = [
             `
             <svg
                 width="50px"
-                height="50px" 
+                height="40px" 
                 viewBox="0 0 24 24"
                 fill="none" 
                 xmlns="http://www.w3.org/2000/svg">
@@ -216,7 +216,7 @@ export const pages = [
         icon: `
         <svg 
         fill="currentColor" 
-        height="50px" 
+        height="40px" 
         width="50px" 
         viewBox="0 0 232.688 232.688"
         stroke="currentColor"
@@ -225,13 +225,13 @@ export const pages = [
         `
     },
     {
-        title: "Hire me",
-        path: '/hire-me',
+        title: "Connect",
+        path: '/connect',
         display: true,
         icon: `
         <svg 
         fill="currentColor" 
-        height="50px" 
+        height="40px" 
         width="50px" 
         viewBox="0 0 24 24" 
         xml:space="preserve">
