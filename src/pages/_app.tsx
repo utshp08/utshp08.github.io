@@ -60,7 +60,7 @@ export default function App(props: AppProps) {
             "color": "#ffffff",
             "distance": 150,
             "enable": true,
-            "opacity": 0.5,
+            "opacity": 0.2,
             "width": 3
           },
           "collisions": {
@@ -84,7 +84,7 @@ export default function App(props: AppProps) {
             "value": 100
           },
           "opacity": {
-            "value": 0.5
+            "value": 0.8
           },
           "shape": {
             "type": "octagon"
