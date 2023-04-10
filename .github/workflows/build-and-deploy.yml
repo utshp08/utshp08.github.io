@@ -3,12 +3,13 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
-  permissions:
-    contents: write
 
 jobs:
   build:
 		
+    permissions:
+      contents: write
+      
     runs-on: ubuntu-latest
 
     steps:
