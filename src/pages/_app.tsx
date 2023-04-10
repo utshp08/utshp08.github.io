@@ -61,10 +61,10 @@ export default function App(props: AppProps) {
             "distance": 150,
             "enable": true,
             "opacity": 0.5,
-            "width": 1
+            "width": 3
           },
           "collisions": {
-            "enable": true
+            "enable": false
           },
           "move": {
             "direction": "none",
@@ -73,21 +73,21 @@ export default function App(props: AppProps) {
               "default": "bounce"
             },
             "random": false,
-            "speed": 4,
+            "speed": 3,
             "straight": false
           },
           "number": {
             "density": {
-              "enable": true,
+              "enable": false,
               "area": 800
             },
-            "value": 80
+            "value": 100
           },
           "opacity": {
             "value": 0.5
           },
           "shape": {
-            "type": "circle"
+            "type": "octagon"
           },
           "size": {
             "value": { "min": 1, "max": 5 }
