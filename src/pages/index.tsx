@@ -5,7 +5,7 @@ import Heading from "../components/common/heading";
 
 const Home: FC<{}> = () => {
   return (
-    <div className="px-5 flex flex-col xl:justify-center lg:justify-center md:justify-center sm:justify-start xs:justify-start items-center h-screen ">
+    <div className="justify-center px-5 flex flex-col xl:justify-center lg:justify-center md:justify-center sm:justify-start xs:justify-start items-center h-screen ">
       <div className={cn({
         "block  min-w-[200px] max-w-[300px] rounded-full  xl:p-1 mb-[30px]": true,
         "animate-steam": true

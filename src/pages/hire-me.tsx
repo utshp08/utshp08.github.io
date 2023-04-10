@@ -3,7 +3,7 @@ import { icons } from "../commons/common";
 
 export default function HireMe() {
   return (
-    <div className="px-5 text-white flex flex-col xl:justify-center lg:justify-center md:justify-center sm:justify-start items-center h-screen ">
+    <div className="justify-center px-5 text-white flex flex-col xl:justify-center lg:justify-center md:justify-center sm:justify-start  xs:justify-start items-center h-screen ">
       <Heading className={"text-center text-4xl"}>HOW TO REACH OUT</Heading>
       <p className="z-10 my-5 mb-[40px] text-center">Got some ideas in mind? Hire me, and let&lsquo;s discuss how to make it reality.</p>
       <div className="z-10 px-5 flex flex-row gap-4 justify-around sm:justify-between flex-wrap">

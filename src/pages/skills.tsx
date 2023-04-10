@@ -6,7 +6,7 @@ import Heading from "../components/common/heading";
 
 export default function Skills() {
   return (
-    <div className="px-5 text-white flex flex-col xl:justify-center lg:justify-center md:justify-center sm:justify-start items-center h-screen ">
+    <div className="justify-center px-5 text-white flex flex-col xl:justify-center lg:justify-center md:justify-center sm:justify-start  xs:justify-start  items-center h-screen ">
       <Heading className={"text-center text-4xl "}>WHAT I DO</Heading>
       <p className="z-10 my-5 mb-[40px] text-center">Tech-stack I use for designing and building web applications.</p>
       <div className="z-10 px-5 flex flex-row gap-4 justify-around flex-wrap">
