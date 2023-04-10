@@ -37,7 +37,7 @@ const SideBar: FC<SideBarProps> = ({ }) => {
 
     return (
         <div className={cn({
-            "z-[20] flex h-screen flex-row xl:flex lg:flex md:flex sm:block xs:block items-center w-[100%] xl:h-screen lg:h-screen md:h-screen sm:w-[100%] xs:w-[100%] xl:w-auto lg:w-auto md:w-auto border-tbackdrop-blur-lg dark:border-slate-600/60 dark:bg-slate-800/50 fixed xl:fixed-left lg:fixed-left md:fixed-left sm:fixed-top xs:fixed-top": true
+            "z-[20] flex h-screen flex-row xl:flex lg:flex md:flex sm:block xs:block items-center xl:h-screen lg:h-screen md:h-screen sm:w-[100%] xs:w-[100%] xl:w-auto lg:w-auto md:w-auto border-tbackdrop-blur-lg dark:border-slate-600/60 dark:bg-slate-800/50 fixed xl:fixed-left lg:fixed-left md:fixed-left sm:fixed-top xs:fixed-top": true
         })}>
 
             <nav
